@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/action_expense"
+        android:title="Expenses"/>
+
+    <item
+        android:id="@+id/action_purchase"
+        android:title="Purchases"/>
+    <item
+        android:id="@+id/action_stock"
+        android:title="Stock"/>
+    <item
+        android:id="@+id/action_report"
+        android:title="Reports"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"/>
+
+</menu>
